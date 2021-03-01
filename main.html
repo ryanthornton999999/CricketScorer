@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="random project" />
+  <meta name="author"      content="Ryan Thornton" />
+  <link rel="stylesheet" href="style.css">
+  <script src="code.js"></script>
+  <title>Cricket Scorer</title>
+</head>
+<body>
+<header>
+	<h1>CRICKET SCORER</h1>
+</header>
+	<div id="score">
+	<p id="wickets">0</p>
+	<p>/</p>
+	<p id="runs">0</p>
+	<p>(</p><p id="balls"></p><p>)</p></div><br />
+	<input type="button" id="zero" value="0" onclick="addRuns(this.id);"/>
+	<input type="button" id="one" value="1" onclick="addRuns(this.id);"/>
+	<input type="button" id="two" value="2" onclick="addRuns(this.id);"/>
+	<input type="button" id="three" value="3" onclick="addRuns(this.id);"/>
+	<input type="button" id="four" value="4" onclick="addRuns(this.id);"/>
+	<input type="button" id="five" value="5" onclick="addRuns(this.id);"/>
+	<input type="button" id="six" value="6" onclick="addRuns(this.id);"/>
+	<input type="button" id="wicket" value="W" onclick="addRuns(this.id)"/><br />
+	<h3>SCORING TIMELINE</h3><br />
+	<p id="timeline"></p>
+</body>
+</html>
